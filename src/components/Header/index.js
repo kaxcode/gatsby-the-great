@@ -15,9 +15,14 @@ const Header = () => (
         padding: '1.45rem 1.0875rem',
       }}
     >
-    <Link to="/" style={{ textShadow: `none`, backgroundImage: `none` }}>
-        <h1 style={{ display: `inline`}}>Gatsby Team</h1>
+    <ul>
+      <Link to="/" style={{ textShadow: `none`, backgroundImage: `none` }}>
+          <h1 style={{ display: `inline`}}>Gatsby Team</h1>
       </Link>
+      <Link to="/" style={{ textShadow: `none`, backgroundImage: `none` }}>
+      <p style={{ display: `inline`}}>Tickets</p>
+      </Link>
+    </ul>
     </div>
   </div>
 )
